@@ -6,26 +6,16 @@ import sbench from '../images/mm.jpg'
 import './home.css'
 import StudentLogin from '../Login/StudentLogin'
 import StaffLogin from '../Login/StaffLogin'
+import Navbar from '../Navbar/Navbar'
 
 
 const Home = () => {
   return (
-    <div className='MCont'>
-      <div className='Mimage'>
-        <img src={atimage}/>
-      </div>
-      <div className="MNav">
-        <ul>
-            <li>Home</li>
-            <li>Standered</li>
-            <li>Staff</li>
-            <li>FeedBack</li>
-            <li>AdminPanel</li>
-            <li>ContactUs</li>
-        </ul>
-      </div>
-
-      <div className='Scont'>
+   
+         <div >
+          <Navbar/>
+          <div className='SContset'>
+          <div className='Scont'>
         <div className='LoginM'>
        <div className='StudLogin'>
         <StudentLogin/>
@@ -34,15 +24,19 @@ const Home = () => {
         <StaffLogin/>
        </div>
       </div>
+      </div>
 
       <div className='Simg'>
            <img  className="Cimage" src={childimg}/>
            <img className="Bimage" src={sbench}/>
            </div>
-      </div>
-      
+          </div>
+     
 
-    </div>
+           </div>
+
+        
+    
   )
 }
 

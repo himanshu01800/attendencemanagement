@@ -38,6 +38,7 @@ padding: 0;
 }
 .Scont{
     margin-top: 10px;
+    width:36%;
    
     height: 390px;
     padding-top: 10px;
@@ -82,4 +83,7 @@ padding: 0;
     justify-content: center;
     width:100%;
     
+}
+.SContset{
+    display: flex;
 }

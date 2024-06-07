@@ -1,0 +1,12 @@
+.feedform label{
+    display: block;
+}
+.feedform{
+    margin-top: 20px;
+}
+.Sim{
+    display: flex;
+     width: 100%;
+   
+     justify-content: center;
+}
